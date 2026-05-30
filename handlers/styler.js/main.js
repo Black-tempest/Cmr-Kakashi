@@ -20,7 +20,7 @@ export class style {
     text_font: "bold_italic",
     line_top: "hidden",
     line_bottom: "default",
-    line_replacer: "default",
+    line_replacer: "❖ ━━━━『✙』━━━━❖",
     line_replace: "--",
     text_trim: true,
   }
