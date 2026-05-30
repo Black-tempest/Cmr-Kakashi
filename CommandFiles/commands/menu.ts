@@ -555,7 +555,7 @@ export async function entry({
       `${UNISpectra.arrowFromT} View by page: **${prefix}${commandName} <page>**`,
       `${UNISpectra.arrowFromT} View the basics: **${prefix}${commandName} basics**`,
 
-      `${UNISpectra.disc} Developed by @**Liane Cagara** 🎀`,
+      `${UNISpectra.disc} Developed by @**Veldora Tempest** 🌹`,
     ].join("\n");
     if (1) {
       return output.replyStyled(strs, {
