@@ -3,9 +3,9 @@
  * @gem
  **/
 
-import fs from "fs";
-import path from "path";
-import axios from "axios";
+const fs = require("fs");
+const path = require("path");
+const axios = require("axios");
 
 const config = {
   name: "gem",
@@ -64,14 +64,12 @@ async function onCall({ message, args }) {
   const userID = message.senderID;
   if (!memory[userID]) memory[userID] = { lastPrompt: null, lastRatio: "1:1", style: null };
 
-  // --clearstyle
   if (args[0] === "--clearstyle") {
     memory[userID].style = null;
     saveMemory(memory);
     return message.reply("🧹 | Style par défaut supprimé.");
   }
 
-  // --style <style>
   if (args[0] === "--style") {
     const userStyle = args.slice(1).join(" ").trim();
     if (!userStyle) return message.reply("❌ | Indique un style. Ex: gem --style cyberpunk");
@@ -176,7 +174,7 @@ async function onCall({ message, args }) {
   }
 }
 
-export default {
+module.exports = {
   config,
   onCall,
   style,
