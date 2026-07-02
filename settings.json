@@ -12,7 +12,7 @@
   "GRADIENT_THEME": "retro",
   "knownURL": "https://cassidyredux.onrender.com",
   "noFB": false,
-  "PREFIX": "%",
+  "PREFIX": "°",
   "NICKNAME": "𝗗𝗮𝗿𝗸-𝗔𝗻𝗴𝗲𝗹",
   "CUSTOM_STYLE": {
     "enabled": false,
@@ -21,7 +21,7 @@
   },
   "VERBOSE_LOGGING": false,
   "LOGO": "",
-  "ADMINBOT": ["61588903753400", "YOUR_UID"],
+  "ADMINBOT": ["61591631452557", "YOUR_UID"],
   "EXTRAPREFIX": ["_"],
   "MODERATORBOT": [],
   "exitOnError": false,
